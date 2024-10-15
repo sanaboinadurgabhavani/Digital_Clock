@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: purple;
+}
+body{
+    background-image: url(./epucRL.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    text-align: center;
+    font-size: 40px;
+    /* border: 2px  solid; */
+}
+#display_time{
+    /* border: 2px solid; */
+    display:flex;
+    height: 300px;
+    margin-top: 150px;
+}
+#hour{
+    /* border: 2px solid; */
+    position: absolute;
+    left: 400px;
+    
+}
+#min{
+    /* border: 2px solid; */
+    position: absolute;
+    left: 650px;
+}
+#sec{
+    /* border: 2px solid; */
+    position: absolute;
+    left: 900px;
+}
+h2{
+    font-size: 160px;
+}
+p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+#h31{
+    font-size: 160px;
+    margin-left: 570px;
+}
+#h32{
+    font-size: 160px;
+    margin-left: 200px;
+}
